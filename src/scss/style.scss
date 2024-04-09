@@ -1,22 +1,48 @@
+
 /* normalize.css
 ------------------------ */
 @import 'normalize.css/normalize.css';
 
+// color variable
+@import './foundation/color';
+
 /* ==========================================================================
-  Foundation
+ Object-Utility
 ========================================================================== */
+@import './object/utility/mixin';
+@import './layout/header';
 
 /* ==========================================================================
   Foundation
 ========================================================================== */
+@import './foundation/reset';
+@import './foundation/base';
+@import './foundation/fontface';
 
 /* ==========================================================================
-  Project
+  Layout
 ========================================================================== */
 
+@import './layout/footer';
+@import './layout/layout';
+@import './layout/sidebar';
+
 /* ==========================================================================
-  Component
+ Object-Component
 ========================================================================== */
-h1 {
-  color: #f00;
-}
+@import './object/component/button';
+@import './object/component/cards';
+@import './object/component/title';
+@import './object/component/label';
+
+/* ==========================================================================
+ Object-Project
+========================================================================== */
+@import './object/project/page';
+@import './object/project/mainvisual';
+
+
+/* ==========================================================================
+ Object-Utility
+========================================================================== */
+@import './object/utility/breakpoint';

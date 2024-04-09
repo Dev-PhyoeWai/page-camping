@@ -1,0 +1,23 @@
+
+
+.c-page--up {
+    position: sticky;
+    bottom: 20px;
+  
+    a {
+      display: block;
+      width: 50px;
+      height: 50px;
+    }
+  
+    img {
+   
+      width: 60px;
+    }
+  
+    &__inner {
+      position: absolute;
+      right: 43px;
+      bottom: -17px;
+    }
+  }

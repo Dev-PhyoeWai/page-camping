@@ -1,0 +1,18 @@
+
+// roboto
+@mixin robotoFontFamily($weight) {
+    font-family: 'Roboto', sans-serif;
+    font-weight: $weight;
+}
+
+// archivo
+@mixin archivoFontFamily($weight) {
+    font-family: 'Archivo', sans-serif;
+    font-weight: $weight;
+}
+
+// archivo black
+@mixin archivoBlackFontFamily($weight) {
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: $weight;
+}

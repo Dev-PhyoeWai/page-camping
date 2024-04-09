@@ -1,0 +1,60 @@
+
+.c-button {
+    width: 100%;
+    max-width: 130px;
+    margin: 0 auto;
+    line-height: 50px;
+
+    a {
+      text-decoration: none;
+      @include robotoFontFamily(0);
+      font-size: 18px;
+      display: block;
+      text-align: center;
+      width: 100%;
+      color: $whiteColor;
+      border: 1px solid $whiteColor;
+      border-radius: 25px;
+      
+    }
+  
+    &--signup {
+
+      margin-right: 20px;
+
+      a{
+        border: none;
+      }
+    }
+    
+  
+    &--firstbtn,
+    &--viewall {
+      max-width: 205px;
+
+      a {
+        background: $orangeColor;
+        border: 1px solid $orangeColor;
+      }
+    }
+
+      
+    &--viewall {
+      a {
+        background: transparent;
+        color: $orangeColor;
+      }
+    }
+
+  
+    &--readmore {
+      max-width: 185px;
+  
+      a {
+        border: none;
+        color: $cardButtonColor;
+      }
+    }
+
+  }
+  
